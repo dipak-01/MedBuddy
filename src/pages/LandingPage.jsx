@@ -6,10 +6,10 @@ import Navbar from "./Navbar";
 export default function landingPage() {
 const history = useNavigate();
     return (
-        
+        // https://www.1mg.com/images/tata_1mg_logo.svg
         <><Navbar/>
             <div className="flex justify-center mt-36 w-full h-20 sm:h-32 m-4">
-                <img className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5" src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="logo" />
+                <h1 className="text-8xl font-sans font-bold">MedBuddy</h1>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-20 pt-20 justify-center p-4">
